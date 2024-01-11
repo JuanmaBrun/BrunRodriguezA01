@@ -26,11 +26,11 @@ La aplicación cuenta con los siguientes elementos:
 
 ![Screenshot](img/container3.png)
 
-* Un Container de color amarillo y de altura 200. Este contiene una fila que a su vez contiene dos widget Expanded. El primer Expandend contiene una Fila con 3 contenedores de colores y el segundo una Columna con 3 contenedores de colores. A los expanded se les aplica la propiedad flex: 1 para que tanto la fila como la columna ocupen el mismo ancho en la pantalla.
+* Un Container de color amarillo y de altura 200. Este contiene una fila que a su vez contiene dos widget Expanded. El primer Expandend contiene una Fila con 3 contenedores de colores y el segundo una Columna con 3 contenedores de colores. Los containers de esta Columna también tienen una anchura infinita y son hijos de un widget Padding que aplica el padding dependiendo de la aunchura del dispositivo. A los expanded se les aplica la propiedad flex: 1 para que tanto la fila como la columna ocupen el mismo ancho en la pantalla.
 
 ![Screenshot](img/container4.png)
 
-* un Container de color rosa y de altura 200. Este contiene una fila que a su vez contiene dos widget Expanded. El primer Expandend contiene una Fila con 3 contenedores de colores y el segundo una Columna con 3 contenedores de colores. Al primer Expanded le aplicamos el atributo flex: 2 y al segundo flex: 1. De esta manera la Fila ocupará 2/3 de la pantalla y la Columna 1/3
+* Un Container de color rosa y de altura 200. Este contiene una fila que a su vez contiene dos widget Expanded. El primer Expandend contiene una Fila con 3 contenedores de colores y el segundo una Columna con 3 contenedores de colores. Los containers de esta Columna también tienen una anchura infinita y son hijos de un widget Padding que aplica el padding dependiendo de la aunchura del dispositivo. Al primer Expanded le aplicamos el atributo flex: 2 y al segundo flex: 1. De esta manera la Fila ocupará 2/3 de la pantalla y la Columna 1/3
 
 ![Screenshot](img/container5.png)
 
